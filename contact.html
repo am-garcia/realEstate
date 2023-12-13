@@ -16,7 +16,6 @@
         <div class="bar">
             <h1>Real Estate</h1>
             <nav>
-                <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
                 <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact</a>
@@ -54,7 +53,7 @@
             <div>
                 <div class="input-container">
                     <label>Type:</label>
-                    <select>
+                    <select name="select an option">
                         <option value="opt1">1</option>
                         <option value="opt2">2</option>
                         <option value="opt3">3</option>
@@ -71,16 +70,24 @@
             <div>
                 <div class="input-container">
                     <label>Phone Number:</label>
-                    <input type="tel">
+                    <input type="radio">
                     <label>Email:</label>
-                    <input type="email">
+                    <input type="radio">
                 </div>
                 <div class="input-container">
                     <label>Number:</label>
                     <input type="tel">
                 </div>
+                <div>
+                    <p>If you want to be contacted by phone, please select a day and hour:</p>
+                    <label>DATE:</label>
+                    <input type="date">
+                    <label>HOUR:</label>
+                    <input type="time">
+                </div>
             </div>
         </fieldset>
+        <button>Send</button>
     </main>
 
 </body>
